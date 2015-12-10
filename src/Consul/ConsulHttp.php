@@ -26,8 +26,7 @@ class ConsulHttp implements ServiceDiscoveryClientInterface
      * @param $serviceName
      * @param null $version
      *
-     * @return string
-     * @throws \Exception
+     * @return string | null
      */
     public function getServiceAddress($serviceName, $version = null)
     {
